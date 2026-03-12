@@ -1,125 +1,107 @@
-Viagens Miguel & Correia Ltd. — Website
+# 🚍 Viagens Miguel & Correia Ltd. — Website
 
-Modern startup-style website for Viagens Miguel & Correia Ltd., a company specialized in corporate transportation management and logistics coordination for factories and large businesses.
+Modern startup-style website for **Viagens Miguel & Correia Ltd.**, a company specialized in **corporate transportation management and logistics coordination** for factories and large businesses.
 
-This project is being built using a vibe coding workflow, iterating step-by-step with AI assistance to design and develop a clean, modern landing page.
+This project is being developed using a **vibe coding workflow**, iterating step-by-step with AI assistance to build a clean and modern landing page.
 
-About the Company
+---
 
-Viagens Miguel & Correia Ltd. provides transportation management solutions for companies and industrial facilities.
+# 🏢 About the Company
 
-The company focuses on organizing and coordinating employee transportation networks by:
+**Viagens Miguel & Correia Ltd.** provides transportation management solutions for companies and industrial facilities.
 
-Designing efficient transport routes
+The company focuses on organizing and coordinating **employee transportation networks** by:
 
-Managing logistics for workforce mobility
+- 🗺 Designing efficient transport routes
+- 🚌 Managing workforce mobility logistics
+- 🤝 Coordinating subcontracted transport companies
+- 🚐 Operating a complementary internal fleet
 
-Coordinating subcontracted transport providers
+Our main strength is **managing complex transportation systems for large companies**, ensuring reliable and optimized employee mobility.
 
-Operating a complementary internal fleet
+---
 
-Their main value is managing complex transportation systems for large companies, ensuring reliable and optimized employee mobility.
+# 🎯 Website Goals
 
-Website Goals
+The purpose of this website is to:
 
-The website aims to:
+- 📢 Present the company and its services  
+- 🏭 Showcase corporate clients  
+- 💼 Communicate the company’s value proposition  
+- 📞 Provide contact information for potential partners  
 
-Present the company and its services
+The design follows a **modern startup-style landing page** with a **black + yellow premium theme**.
 
-Showcase corporate clients
+---
 
-Communicate the company's value proposition
+# 🧰 Tech Stack
 
-Provide contact information for potential partners
+This website uses a simple and fast stack:
 
-The design direction follows a modern startup-style landing page with a black and yellow premium theme.
+- 🌐 **HTML5**
+- 🎨 **TailwindCSS (CDN)**
+- ⚡ **Vanilla JavaScript**
 
-Tech Stack
+This approach keeps the project:
 
-HTML5
+- lightweight
+- easy to maintain
+- fast to iterate using AI-assisted development
 
-TailwindCSS (CDN)
+---
 
-Vanilla JavaScript
+# 📄 Website Sections
 
-This stack was chosen to keep the project:
+The landing page includes:
 
-lightweight
+- 🧭 **Navbar**
+- 🚀 **Hero Section**
+- 🧩 **Services**
+- ⚙️ **How It Works**
+- 🏢 **Clients**
+- 📬 **Contact**
+- 🔻 **Footer**
 
-easy to maintain
+---
 
-fast to iterate using AI-assisted development
+# 🤝 Current Clients
 
-Website Sections
+Some companies that have trusted our transportation coordination services:
 
-The website includes the following sections:
+- **Faurecia**
+- **Copotextil**
+- **Golden Tulip**
 
-Navbar
+---
 
-Hero section
+# 🚀 Development Approach
 
-Services
+This project follows a **vibe coding methodology**, where:
 
-How it Works
+- 🤖 AI assists with development
+- 🔁 improvements are made iteratively
+- 🧩 sections are built step-by-step
+- 🎨 design evolves progressively
 
-Clients
+This allows **rapid prototyping while maintaining clean code**.
 
-Contact
+---
 
-Footer
+# 🔮 Future Improvements
 
-Current Clients
+Planned improvements include:
 
-Some companies that have trusted our transportation coordination services include:
+- 📱 responsive mobile navigation
+- ✨ modern UI animations
+- 🏢 improved client logo section
+- 📬 contact form backend
+- 🔎 SEO optimization
+- ⚡ performance improvements
 
-Faurecia
+---
 
-Copotextil
+# 📄 License
 
-(More clients may be added in the future.)
+This project is intended for **internal/company use**.
 
-Project Structure
-project/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-Future versions may include:
-
-assets/
-  images/
-  logos/
-  icons/
-Development Approach
-
-This project is developed using a vibe coding methodology, where:
-
-AI assists with design and development
-
-improvements are made iteratively
-
-each section is refined step-by-step
-
-This allows rapid prototyping while maintaining code quality.
-
-Future Improvements
-
-Planned enhancements include:
-
-responsive mobile navigation
-
-animated UI interactions
-
-improved client logo section
-
-contact form backend
-
-SEO optimization
-
-performance improvements
-
-License
-
-This project is intended for internal/company use.
+© 2026 Viagens Miguel & Correia Ltd.
