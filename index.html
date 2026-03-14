@@ -213,8 +213,10 @@
     .logo-card {
       position: relative;
       overflow: hidden;
+      display: flex;
       flex-shrink: 0;
       transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      text-decoration: none;
     }
     .logo-card img {
       filter: grayscale(1) brightness(1.1) contrast(1.1);
@@ -306,7 +308,7 @@
     <div class="relative max-w-7xl mx-auto px-8 lg:px-12 pt-40 pb-24 text-center">
       <div class="reveal inline-flex items-center gap-2.5 bg-white/[0.04] border border-white/[0.08] rounded-full px-6 py-2.5 mb-12 backdrop-blur-sm">
         <span class="w-2 h-2 bg-gold-400 rounded-full animate-pulse"></span>
-        <span class="text-sm text-gray-400 font-medium tracking-wide">Gestão de Redes de Transporte Corporativo</span>
+        <span class="text-sm text-gray-400 font-medium tracking-wide">Viagens Miguel & Correia lda</span>
       </div>
 
       <h1 class="reveal text-5xl sm:text-7xl lg:text-[5.5rem] xl:text-[6.5rem] font-black leading-[1.02] tracking-[-0.03em] mb-10">
@@ -315,7 +317,7 @@
       </h1>
 
       <p class="reveal text-lg sm:text-xl lg:text-[1.35rem] text-gray-400 max-w-2xl mx-auto mb-14 leading-relaxed font-light">
-        Organizamos e coordenamos redes completas de transporte para empresas e fábricas. 
+        Organizamos e coordenamos redes completas de transporte para empresas. 
         Gestão de rotas, subcontratação de transportadoras e frota própria — tudo num só parceiro.
       </p>
 
@@ -332,11 +334,11 @@
       <!-- Stats -->
       <div class="reveal grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-0 mt-28 pt-14 border-t border-white/[0.04]">
         <div class="stat-item text-center px-4">
-          <div class="text-4xl sm:text-5xl font-black gradient-text">20+</div>
+          <div class="text-4xl sm:text-5xl font-black gradient-text">25</div>
           <div class="text-xs uppercase tracking-[0.15em] text-gray-500 mt-2 font-semibold">Anos de Experiência</div>
         </div>
         <div class="stat-item text-center px-4">
-          <div class="text-4xl sm:text-5xl font-black gradient-text">50+</div>
+          <div class="text-4xl sm:text-5xl font-black gradient-text">40+</div>
           <div class="text-xs uppercase tracking-[0.15em] text-gray-500 mt-2 font-semibold">Rotas Geridas</div>
         </div>
         <div class="stat-item text-center px-4">
@@ -344,7 +346,7 @@
           <div class="text-xs uppercase tracking-[0.15em] text-gray-500 mt-2 font-semibold">Empresas Parceiras</div>
         </div>
         <div class="stat-item text-center px-4">
-          <div class="text-4xl sm:text-5xl font-black gradient-text">200+</div>
+          <div class="text-4xl sm:text-5xl font-black gradient-text">250+</div>
           <div class="text-xs uppercase tracking-[0.15em] text-gray-500 mt-2 font-semibold">Colaboradores / Dia</div>
         </div>
       </div>
@@ -382,7 +384,7 @@
           </div>
           <h3 class="text-xl font-bold mb-4 group-hover:text-gold-400 transition-colors duration-300">Gestão de Rotas</h3>
           <p class="text-gray-500 leading-relaxed text-[15px]">
-            Planeamento, otimização e coordenação integral de rotas de transporte de colaboradores para fábricas e empresas.
+            Planeamento, otimização e coordenação integral de rotas de transporte de colaboradores para empresas.
           </p>
         </div>
 
@@ -414,7 +416,7 @@
           </div>
           <h3 class="text-xl font-bold mb-4 group-hover:text-gold-400 transition-colors duration-300">Frota Própria</h3>
           <p class="text-gray-500 leading-relaxed text-[15px]">
-            Complementamos a gestão com veículos próprios para garantir qualidade, pontualidade e fiabilidade.
+            Complementamos a gestão com uma frota própria de táxis, veículos descaracterizados e viaturas especializadas no transporte de crianças, garantindo qualidade, pontualidade e total fiabilidade. 
           </p>
         </div>
 
@@ -492,45 +494,48 @@
       <div class="reveal marquee-container rounded-2xl py-4">
         <div class="marquee-track">
           <!-- Set 1 -->
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default">
+          <a href="https://www.forvia.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer">
             <div class="shine"></div>
             <img src="logos/Faurecia_Logo.svg" alt="Faurecia" class="h-30 w-auto max-w-[220px] object-contain">
-          </div>
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default">
+          </a>
+          <a href="https://www.birkenstock.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer">
             <div class="shine"></div>
             <img src="logos/Birkenstock_2021_logo.svg.png" alt="Birkenstock" class="h-10 w-auto max-w-[200px] object-contain">
-          </div>
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default">
+          </a>
+          <a href="https://www.grupocopo.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer">
             <div class="shine"></div>
             <img src="logos/logonuevo.png" alt="Grupo Copo" class="h-14 w-auto max-w-[180px] object-contain">
-          </div>
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default">
+          </a>
+          <a href="https://www.goldentulip.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer">
             <div class="shine"></div>
             <img src="logos/Golden_Tulip_Logo_old-s640.png" alt="Golden Tulip" class="h-16 w-auto max-w-[200px] object-contain">
-          </div>
+          </a>
+          <a href="https://www.cm-arouca.pt" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer">
+            <div class="shine"></div>
+            <img src="logos/aroucaFInal-removebg-preview.png" alt="Município de Arouca" class="h-20 w-auto max-w-[200px] object-contain" >
+          </a>
           <!-- Set 2 (duplicate for seamless loop) -->
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default" aria-hidden="true">
+          <a href="https://www.forvia.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer" aria-hidden="true">
             <div class="shine"></div>
             <img src="logos/Faurecia_Logo.svg" alt="Faurecia" class="h-30 w-auto max-w-[220px] object-contain">
-          </div>
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default" aria-hidden="true">
+          </a>
+          <a href="https://www.birkenstock.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer" aria-hidden="true">
             <div class="shine"></div>
             <img src="logos/Birkenstock_2021_logo.svg.png" alt="Birkenstock" class="h-10 w-auto max-w-[200px] object-contain">
-          </div>
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default" aria-hidden="true">
+          </a>
+          <a href="https://www.grupocopo.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer" aria-hidden="true">
             <div class="shine"></div>
             <img src="logos/logonuevo.png" alt="Grupo Copo" class="h-14 w-auto max-w-[180px] object-contain">
-          </div>
-          <div class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-default" aria-hidden="true">
+          </a>
+          <a href="https://www.goldentulip.com" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer" aria-hidden="true">
             <div class="shine"></div>
             <img src="logos/Golden_Tulip_Logo_old-s640.png" alt="Golden Tulip" class="h-16 w-auto max-w-[200px] object-contain">
-          </div>
+          </a>
+          <a href="https://www.cm-arouca.pt" target="_blank" rel="noopener noreferrer" class="logo-card border border-white/[0.05] rounded-3xl flex items-center justify-center w-72 h-40 mx-4 cursor-pointer">
+            <div class="shine"></div>
+            <img src="logos/aroucaFInal-removebg-preview.png" alt="Município de Arouca" class="h-20 w-auto max-w-[200px] object-contain">
+          </a>
         </div>
-      </div>
-
-      <!-- Trusted by line -->
-      <div class="reveal text-center mt-10">
-        <p class="text-gray-600 text-sm tracking-wide">... e muitas outras empresas industriais na Região Norte</p>
       </div>
 
       <!-- Testimonial -->
