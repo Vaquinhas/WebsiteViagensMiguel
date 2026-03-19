@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — Viagens Miguel & Correia Ltd.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {
+              300: '#fde047',
+              400: '#facc15',
+              500: '#eab308',
+              600: '#ca8a04',
+              700: '#a16207',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          animation: {
+            'float': 'float 6s ease-in-out infinite',
+            'glow-pulse': 'glow-pulse 3s ease-in-out infinite',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            'glow-pulse': {
+              '0%, 100%': { opacity: '0.4' },
+              '50%': { opacity: '0.8' },
+            },
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="bg-black text-white font-sans antialiased">
+
+  <!-- NAVBAR -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-2xl border-b border-white/[0.04] transition-all duration-500">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-8 lg:px-12 py-5">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <span class="text-lg font-bold tracking-tight hidden sm:inline group-hover:text-gold-400 transition-colors duration-300">Viagens</span>
+        <div class="w-10 h-10 bg-gradient-to-br from-gold-300 to-gold-600 rounded-xl flex items-center justify-center shadow-lg shadow-gold-400/20 group-hover:shadow-gold-400/40 transition-shadow duration-300">
+          <span class="text-black font-black text-sm">MC</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-10 text-[13px] font-medium text-gray-400 uppercase tracking-wider">
+        <a href="index.html#servicos" class="hover:text-white transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-gold-400 after:transition-all after:duration-300 hover:after:w-full">Serviços</a>
+        <a href="index.html#clientes" class="hover:text-white transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-gold-400 after:transition-all after:duration-300 hover:after:w-full">Clientes</a>
+        <a href="index.html#contacto" class="hover:text-white transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-gold-400 after:transition-all after:duration-300 hover:after:w-full">Contacto</a>
+        <a href="index.html#contacto" class="btn-primary bg-gradient-to-r from-gold-400 to-gold-500 text-black px-6 py-3 rounded-xl font-bold normal-case tracking-normal text-sm">
+          Falar Connosco
+        </a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" class="md:hidden text-white p-2 hover:bg-white/5 rounded-lg transition-colors" aria-label="Abrir menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav id="mobile-menu" class="hidden md:hidden border-t border-white/[0.04] bg-black/95 backdrop-blur-2xl">
+      <div class="flex flex-col px-8 py-8 gap-6 text-base font-medium text-gray-400">
+        <a href="index.html#servicos" class="hover:text-white transition-colors hover:translate-x-1 transform duration-200">Serviços</a>
+        <a href="index.html#clientes" class="hover:text-white transition-colors hover:translate-x-1 transform duration-200">Clientes</a>
+        <a href="index.html#contacto" class="hover:text-white transition-colors hover:translate-x-1 transform duration-200">Contacto</a>
+        <a href="index.html#contacto" class="bg-gradient-to-r from-gold-400 to-gold-500 text-black px-5 py-4 rounded-xl font-bold text-center mt-2">
+          Falar Connosco
+        </a>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- POLÍTICA DE PRIVACIDADE -->
+  <section class="relative pt-40 pb-36 lg:pb-44 mesh-bg">
+    <div class="absolute bottom-0 left-0 right-0 section-divider"></div>
+    <div class="max-w-4xl mx-auto px-8 lg:px-12">
+
+      <div class="text-center mb-20 reveal">
+        <span class="inline-block text-gold-400 text-xs font-bold uppercase tracking-[0.25em] bg-gold-400/[0.06] px-5 py-2 rounded-full border border-gold-400/10">Legal</span>
+        <h1 class="text-4xl sm:text-5xl lg:text-[3.5rem] font-black mt-8 tracking-[-0.02em] leading-[1.1]">
+          Política de<br>
+          <span class="gradient-text">Privacidade</span>
+        </h1>
+      </div>
+
+      <div class="reveal card-modern rounded-3xl p-10 lg:p-14 space-y-10 text-gray-400 leading-relaxed text-[15px]">
+
+        <p>
+          A Viagens Miguel & Correia Lda está empenhada em proteger a privacidade dos seus Clientes e dos Utilizadores do seu website e, neste contexto, elaborou a presente Política de Privacidade com a finalidade de demonstrar o seu compromisso e respeito para com as regras de privacidade e de proteção de dados pessoais.
+        </p>
+
+        <p>
+          Esta Política de Privacidade aplica-se exclusivamente à recolha e tratamento de dados pessoais efetuados pela nossa empresa, sendo aconselhada a leitura integral deste documento.
+        </p>
+
+        <p>
+          A presente Política de Privacidade aplica-se a todos os dados pessoais recolhidos no website.
+        </p>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Responsável pelo Tratamento de Dados</h2>
+          <p>
+            A entidade responsável pelo tratamento de dados pessoais é Viagens Miguel & Correia Lda, com sede Praça Liberdade 144, 1º-D 3700-611 Cesar Portugal e com o endereço de email geral@taxismiguel.pt
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Tipos de Dados Pessoais</h2>
+          <p>
+            Os dados recolhidos no âmbito da atividade profissional são os que constam nos formulários de contacto presentes no nosso website.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Como recolhemos os seus dados pessoais?</h2>
+          <ul class="list-disc list-inside space-y-2 ml-2">
+            <li>Através do nosso website;</li>
+            <li>Quando subscreve o envio das nossas newsletters, dando-nos o seu consentimento.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Fundamento e Finalidades do Tratamento</h2>
+          <ul class="list-disc list-inside space-y-2 ml-2">
+            <li>Efeitos de Marketing e Vendas, como por exemplo: campanhas de marketing, eventos, promoções, informação sobre novos ou atuais serviços e/ou produtos, inquéritos de satisfação;</li>
+            <li>Diligências pré-contratuais e/ou execução de contrato de prestação de serviços;</li>
+            <li>Prestação dos serviços contratados e gestão de clientes;</li>
+            <li>Cumprimento de obrigação legal;</li>
+            <li>Quando o tratamento for necessário ao cumprimento de obrigações legais, como por exemplo, a resposta a entidades judiciais, de regulação e de supervisão, entre outros;</li>
+            <li>Interesse legítimo;</li>
+            <li>Quando o tratamento de dados pessoais corresponda a um interesse legítimo, como por exemplo o tratamento de dados para melhoria de qualidade de serviço, a deteção de fraude, etc.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Prazo de Conservação</h2>
+          <p>
+            Conservamos os seus dados apenas durante o período que for necessário no âmbito da finalidade para a qual estes foram recolhidos.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Direitos dos Utilizadores</h2>
+          <p>
+            O utilizador pode exercer a todo o tempo os seus direitos de acesso, atualização, apagamento, limitação, o direito de oposição à utilização dos mesmos para fins comerciais pela empresa e à retirada do consentimento, sem que tal comprometa a licitude do tratamento efetuado ao abrigo desse consentimento, bem como o direito à portabilidade dos dados através de solicitação por qualquer um dos meios acima indicados.
+          </p>
+          <p class="mt-4">
+            O titular poderá ainda apresentar reclamações sobre o tratamento de dados junto da Comissão Nacional de Proteção de Dados.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Transmissão de Dados</h2>
+          <p>
+            O tratamento dos dados dos utilizadores poderá ser realizado por um prestador de serviços idóneo, contratado pela nossa empresa. Quando tal sucede, são tomadas as medidas adequadas, de forma a assegurar que as entidades que tenham acesso aos dados, oferecem as mais elevadas garantias no que respeita à proteção de dados.
+          </p>
+          <p class="mt-4">
+            Assim, qualquer subcontratado, tratará os dados pessoais dos Utilizadores, em nome e por conta da nossa empresa, cumprindo rigorosamente as normas legais sobre proteção de dados pessoais, segurança da informação e demais normas aplicáveis.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Transferências Internacionais de Dados</h2>
+          <p>
+            A nossa empresa poderá, no âmbito das finalidades descritas, transferir os seus dados do utilizador para fora do território do Espaço Económico Europeu (EEE). Nestes casos, cumprirá rigorosamente as disposições legais aplicáveis, nomeadamente à determinação da adequabilidade do(s) país(es) de destino no que respeita à proteção de dados pessoais e aos requisitos aplicáveis a tais transferências.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Decisões Automatizadas</h2>
+          <p>
+            A nossa empresa poderá elaborar perfis dos utilizadores, o que permitirá a adoção de decisões automatizadas, baseadas nas caraterísticas pessoais, preferências, histórico de comportamento e localização. Nestes casos, o utilizador terá o direito de obter uma intervenção humana na decisão, de expressar o seu ponto de vista e de impugnar a decisão adotada.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Medidas de Proteção dos Dados Pessoais</h2>
+          <p>
+            A nossa empresa aplica diversas medidas técnicas e organizativas adequadas para proteger os dados pessoais dos utilizadores.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">Alterações à Política de Privacidade</h2>
+          <p>
+            Ocasionalmente, a nossa empresa atualizará esta Política de Privacidade.
+          </p>
+          <p class="mt-4">
+            Solicitamos-lhe que reveja periodicamente este documento para se manter atualizado.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/[0.04]">
+    <div class="max-w-7xl mx-auto px-8 lg:px-12 pt-20 pb-12">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 mb-20">
+
+        <!-- Brand -->
+        <div class="sm:col-span-2 lg:col-span-1">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 bg-gradient-to-br from-gold-300 to-gold-600 rounded-xl flex items-center justify-center shadow-lg shadow-gold-400/10">
+              <span class="text-black font-black text-sm">MC</span>
+            </div>
+            <span class="text-lg font-bold tracking-tight">Viagens Miguel & Correia Ltd.</span>
+          </div>
+          <p class="text-gray-500 text-sm leading-relaxed max-w-xs">
+            Gestão profissional de redes de transporte corporativo. A mobilidade da sua empresa, simplificada.
+          </p>
+        </div>
+
+        <!-- Links -->
+        <div>
+          <h4 class="text-xs font-bold text-gray-400 mb-6 uppercase tracking-[0.2em]">Empresa</h4>
+          <div class="space-y-4">
+            <a href="index.html#servicos" class="block text-gray-500 hover:text-white text-sm transition-colors duration-300 hover:translate-x-1 transform">Serviços</a>
+            <a href="index.html#clientes" class="block text-gray-500 hover:text-white text-sm transition-colors duration-300 hover:translate-x-1 transform">Clientes</a>
+            <a href="index.html#contacto" class="block text-gray-500 hover:text-white text-sm transition-colors duration-300 hover:translate-x-1 transform">Contacto</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold text-gray-400 mb-6 uppercase tracking-[0.2em]">Serviços</h4>
+          <div class="space-y-4">
+            <span class="block text-gray-500 text-sm">Gestão de Rotas</span>
+            <span class="block text-gray-500 text-sm">Subcontratação</span>
+            <span class="block text-gray-500 text-sm">Frota Própria</span>
+            <span class="block text-gray-500 text-sm">Otimização</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold text-gray-400 mb-6 uppercase tracking-[0.2em]">Contacto</h4>
+          <div class="space-y-4">
+            <span class="block text-gray-500 text-sm">contacto@vmc.pt</span>
+            <span class="block text-gray-500 text-sm">+351 253 000 000</span>
+            <span class="block text-gray-500 text-sm">Região Norte, Portugal</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="border-t border-white/[0.04] pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <span class="text-gray-600 text-sm">&copy; 2026 Viagens Miguel & Correia Ltd. Todos os direitos reservados.</span>
+        <div class="flex items-center gap-6">
+          <span class="text-gray-600 text-sm">NIF: 000 000 000</span>
+          <a href="PoliticaPrivacidade.html" class="text-gray-600 hover:text-gold-400 text-sm transition-colors duration-300">Política de Privacidade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="../js/scripts.js"></script>
+
+</body>
+</html>
