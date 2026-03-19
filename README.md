@@ -40,7 +40,7 @@ This website uses a simple and fast stack:
 
 - 🌐 **HTML5**
 - 🎨 **TailwindCSS (CDN)**
-- ⚡ **Vanilla JavaScript**
+- ⚡ **JavaScript**
 
 This approach keeps the project:
 
@@ -69,7 +69,7 @@ The landing page includes:
 Some companies that have trusted our transportation coordination services:
 
 - **Faurecia**
-- **Copotextil**
+- **Flama**
 - **Golden Tulip**
 
 ---
